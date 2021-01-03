@@ -12,10 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1a08c851f5eaff4b84ab0d78f04f277, type: 3}
   m_Name: SceneConnectionData
   m_EditorClassIdentifier: 
-  ConnectionNumber: 0000000001000000
-  CurrentScene:
-  - Scene A
-  - Scene A
-  NextScene:
-  - Scene B
-  - Scene C
+  ConnectionNumber: 
+  CurrentScene: []
+  NextScene: []

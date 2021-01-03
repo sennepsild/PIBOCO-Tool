@@ -12,14 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1ea7461fb4495449856b0c58bd6e66, type: 3}
   m_Name: Node Data
   m_EditorClassIdentifier: 
-  NodePositions:
-  - {x: 363, y: 223}
-  - {x: 883, y: 124}
-  - {x: 858, y: 372}
-  Nodetitles:
-  - Scene A
-  - Scene B
-  - Scene C
-  NodeNumberin: 0100000002000000
-  NodeNumberOut: 0000000000000000
-  NumberOut: 0000000001000000
+  NodePositions: []
+  Nodetitles: []
+  NodeNumberin: 
+  NodeNumberOut: 
+  NumberOut: 

@@ -72,47 +72,25 @@ public class Node
             outPoints[i].Draw();
         }
         
-
-        //GUI.BeginGroup(new Rect(nodeRect.position.x, nodeRect.position.y + nodeRect.size.y / 2f, nodeRect.size.x - 10f, nodeRect.size.y), style);
-        //GUILayout.BeginArea ( collectiveRect );
-
-        //myInfo.Draw(collectiveRect, style);
-
-        //GUI.Box ( new Rect ( 0, 0, collectiveRect.size.x - 10f, myInfo.height ), "I am box!", style );
-        //GUI.Button ( new Rect ( 0, myInfo.height, 100f, myInfo.height ), "I am button!", style );
-
-        //GUILayout.Button ( "", style );
-        //myInfo.Draw ( nodeRect, style );
-
-        //GUILayout.EndArea ();
-        //GUI.EndGroup();
+   
+      
 
         Rect baseRect = new Rect(10f, 30f, nodeRect.size.x - 30f, 30f);
 
-        var extra = 40f;
+        
         var topOffset = 55f;
-
-        //baseRect = new Rect(baseRect.position.x, baseRect.position.y, baseRect.size.x, baseRect.size.y);
-
-        //EditorGUI.LabelField ( baseRect, "Weapon" );
+        
 
         float marginLeft = 5.5f;
         float marginRight = marginLeft - 0f;
 
-        GUI.Box(new Rect(nodeRect.x , nodeRect.y, nodeRect.width , nodeRect.height + topOffset * 3), "", style);
+        GUI.Box(new Rect(nodeRect.x , nodeRect.y, nodeRect.width , nodeRect.height + topOffset ), "", style);
 
         
 
         EditorGUI.LabelField(nodeRect, title, style);
         title = EditorGUI.TextField(new Rect(nodeRect.position.x + marginRight * 4f, nodeRect.position.y + topOffset, nodeRect.width - (marginRight * 4f * 2f), nodeRect.size.y / 2f), "Scene Name:", title);
-
-        //scene = (Scene)EditorGUI.ObjectField(new Rect(nodeRect.position.x + marginRight * 4f, nodeRect.position.y + topOffset + (extra), nodeRect.width - (marginRight * 4f * 2f), nodeRect.size.y / 2f), "Behaviour", scene, typeof(Scene), true);
-
-        //moveSpeed = DrawStat("Move Speed:", nodeRect, marginLeft, marginRight, topOffset, 2f, 2f, extra, moveSpeed, 0f, 100f);
-        //rotationSpeed = DrawStat("Rotation Speed:", nodeRect, marginLeft, marginRight, topOffset, 2f, 3f, extra, rotationSpeed, 0f, 100f);
-
-        //EditorGUI.Slider(new Rect(nodeRect.position.x + marginRight * 4f, nodeRect.position.y + topOffset + (extra*2), nodeRect.width - (marginRight * 4f * 2f), nodeRect.size.y / 2f), "Rotation Speed", 50f, 0f, 100f);
-        //EditorGUI.Slider(new Rect(nodeRect.position.x + marginRight * 4f, nodeRect.position.y + topOffset + (extra*2), nodeRect.width - (marginRight * 4f * 2f), nodeRect.size.y / 2f), "Rotation Speed", 50f, 0f, 100f);
+        
     }
 
     public bool ProcessEvents(Event e)
