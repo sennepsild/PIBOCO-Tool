@@ -15,6 +15,6 @@ Following Unity packages were added and used for the Alien animation:
 
 2D PSD Importer preview v1.2.0
 
-The images used in the Project are in Photoshop file format and might not behave correctly if Photoshop is not installed, but no functionalitty should be affected.
+The images used in the Project are in Photoshop file format and might not behave correctly if Photoshop is not installed, but no functionality should be affected.
 
 
