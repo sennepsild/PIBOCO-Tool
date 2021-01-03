@@ -3,6 +3,11 @@ Node editor for scenehandling, made in a day as a PIBOCO tech challenge.
 
 Create, drag and edit nodes to set up intricate branching stories or just make it easier to control and get an overview of which scene leads to another. 
 
+Link to a Video showing off the tool.
+
+https://youtu.be/0A3lly5XkAk
+
+
 This includes several hardcoded dummy scenes with a little alien, but is set up with flexible game events and the tool will fit to any kind of scene.
 
 This were made with Unity version 2019.2.9f1, but should work in newer versions.
